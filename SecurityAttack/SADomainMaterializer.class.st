@@ -34,5 +34,5 @@ SADomainMaterializer >> serializeTestObjects [
 
 { #category : #'serialize/materialize' }
 SADomainMaterializer >> serializedObjects [
-	^'[SAIntermediaryObject{#domainMethod:#''instantiate:'',#domainArgument:''toto''},SAIntermediaryObject{#domainMethod:#''instantiate:'',#domainArgument:''titi''},SAIntermediaryObject{#domainMethod:#''instantiate:'',#domainArgument:''tata''}]'
+	^'[SAIntermediaryObject{#domainMethod:#''readFrom:'',#domainArgument:''\t\''ha ha ha read from\'' crTrace.\r\t\t\t\tSADomainObject new name: \''titi\''; yourself \r\t\t\t\t\r\t\t\t\t''},SAIntermediaryObject{#domainMethod:#''instantiate:'',#domainArgument:''titi''},SAIntermediaryObject{#domainMethod:#''instantiate:'',#domainArgument:''tata''}]'
 ]

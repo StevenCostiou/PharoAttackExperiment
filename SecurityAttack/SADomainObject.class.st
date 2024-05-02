@@ -29,7 +29,6 @@ SADomainObject >> name: anObject [
 ]
 
 { #category : #printing }
-SADomainObject >> printOn: aStream [
-
+SADomainObject >> printOn: aStream [ 
 	aStream << name
 ]
